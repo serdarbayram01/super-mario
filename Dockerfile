@@ -1,9 +1,9 @@
 # Docker container for FullScreenMario server
 # http://www.fullscreenmario.com
 FROM centos:latest
-LABEL maintainer Chris Collins <collins.christopher@gmail.com>
+LABEL Rebuilder Serdar Bayram <serdarbayram01@gmail.com>
 
-ENV FSM https://github.com/dignifiedquire/FullScreenMario.git
+ENV FSM https://github.com/serdarbayram01/FullScreenMario-Code.git
 
 HEALTHCHECK CMD curl --fail http://localhost/
 

@@ -5,7 +5,8 @@
 
 set -o errexit
 
-FSM="https://github.com/dignifiedquire/FullScreenMario.git"
+#FSM="https://github.com/dignifiedquire/FullScreenMario.git"
+FSM="https://github.com/serdarbayram01/FullScreenMario-Code.git"
 
 # Create a container
 container=$(buildah from scratch)
