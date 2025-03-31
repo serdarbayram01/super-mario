@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
       - name: supermario
-        image: rahulshrimali2526/supermario-k8
+        #image: rahulshrimali2526/supermario-k8
+        image: serdarbayram/super-mario
         imagePullPolicy: Always
         ports:
         - containerPort: 80
